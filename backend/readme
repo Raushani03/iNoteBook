@@ -1,0 +1,17 @@
+cmd that was used :
+
+To run the backend or server : 
+ node index.js 
+ or,
+ nodemon server.js 
+ or,
+ nodemon .\index.js 
+
+ npx create-react-app inotebook
+
+ // installed mongoose 
+npm install express-validator // 
+ npm install bcryptjs // to use bcrypt for generating salt and hash the password 
+  npm i jsonwebtoken // to create json web token for user authentication 
+
+  // created a middleware "fetchUser", middleware is a fun that willbe  called whenever call will happen for the routes which needs login i.e it will help to fetch the user for login

@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### started frontend 
+
+npm i react-router-dom concurrently
+(concurrently we use to run both client and server together no need to start both on differnt terminal)
+we can add this in package.json to run both 
+ "both": "concurrently npm run start nodemon backend/index.js "
+
+used "fontawesome" for icons , just did setup in "https://fontawesome.com/" added script in index.html and started using it in code .
+same like bootstrap . 
+
